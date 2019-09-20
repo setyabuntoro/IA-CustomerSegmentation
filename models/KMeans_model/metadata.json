@@ -1,0 +1,156 @@
+{
+    "algorithm": "KMeans",
+    "algorithmType": "Classification",
+    "author": "1026",
+    "createdAt": 1556915747427,
+    "features": [
+        {
+            "name": "CUSTOMER_AGE_RANGE_30 to 40",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_40 to 55",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_55 to 65",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_AGE_RANGE_65 and over",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_URBAN_CODE_Rural",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_URBAN_CODE_Urban",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_High School",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_PhD",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_Professional",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EDUCATION_LEVEL_University",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_GENDER_Male",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARITAL_STATUS_Married",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_MARITAL_STATUS_Single",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Homemaker",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Retired",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Selfemployed",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_EMPLOYMENT_STATUS_Unemployed",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_ALL_FEES_standardised",
+            "sample": -0.4610864008,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_NUMBER_OF_ACTIVE_ACCOUNTS_standardised",
+            "sample": -0.7381363788,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_FUNDS_UNDER_MANAGEMENT_standardised",
+            "sample": -0.8605923389,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_NUMBER_OF_DEPENDENT_CHILDREN_standardised",
+            "sample": 0.0245256798,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_NUMBER_OF_BUY_TRADES_standardised",
+            "sample": 0.1480710125,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_ANNUAL_INCOME_standardised",
+            "sample": -0.1882274522,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_ASSETS_standardised",
+            "sample": -0.4995062286,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_SUMMARY_TOTAL_NUMBER_OF_SELL_TRADES_standardised",
+            "sample": -0.8401652428,
+            "type": "float"
+        },
+        {
+            "name": "CUSTOMER_TENURE_IN_MONTHS_standardised",
+            "sample": -0.8969933559,
+            "type": "float"
+        }
+    ],
+    "id": 1556915747427,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "",
+            "type": ""
+        }
+    ],
+    "latestModelVersion": 2,
+    "learningType": "Unsupervised",
+    "name": "KMeans_model",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python36",
+    "serialization": "joblib",
+    "source": "",
+    "type": "scikit-learn-0.20"
+}
